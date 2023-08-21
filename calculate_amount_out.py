@@ -1,7 +1,7 @@
 import sys
 import time
 import os
-from brownie import *
+from brownie import network, Contract
 from decimal import Decimal
 
 # Change to match your explorer API key

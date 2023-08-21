@@ -1,2 +1,4 @@
-brownie
+eth-brownie
 eth_abi
+web3
+websockets

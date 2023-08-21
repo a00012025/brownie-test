@@ -3,7 +3,7 @@ import time
 import datetime
 import requests
 import os
-from brownie import *
+from brownie import accounts, network, Contract, chain
 
 # Contract addresses (verify on Snowtrace)
 TRADERJOE_ROUTER_CONTRACT_ADDRESS = "0x60aE616a2155Ee3d9A68541Ba4544862310933d4"

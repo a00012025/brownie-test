@@ -1,7 +1,7 @@
 import time
 import datetime
 import sys
-from brownie import *
+from brownie import network, accounts, Contract
 
 network.connect('avax-main')
 user = accounts.load('test_account')

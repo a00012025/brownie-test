@@ -5,7 +5,7 @@ import requests
 import os
 import json
 from decimal import Decimal
-from brownie import *
+from brownie import accounts, network, Contract
 
 # Contract addresses (verify on Snowtrace)
 TRADERJOE_ROUTER_CONTRACT_ADDRESS = "0x60aE616a2155Ee3d9A68541Ba4544862310933d4"
